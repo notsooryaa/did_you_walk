@@ -9,7 +9,6 @@
 .label > label{
     display: flex;
     flex-direction: column;
-    padding-right: 10px;
 }
 .textbox{
     width: 80%;

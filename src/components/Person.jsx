@@ -51,7 +51,7 @@ function Person({ name }) {
     <>
       <div className="person d-flex flex-column align-items-center justify-content-center p-2">
         <div><h4>{name}</h4></div>
-        <div className="label d-flex flex-row align-self-center gap-3">
+        <div className="label d-flex flex-row align-self-center justify-content-center gap-4">
           <label>
             <input
               type="radio"
