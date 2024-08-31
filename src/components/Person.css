@@ -1,0 +1,41 @@
+.person > div{
+    padding: 1rem;
+}
+
+.label{
+    font-size: 20px;
+}
+
+.label > label{
+    display: flex;
+    flex-direction: column;
+    padding-right: 10px;
+}
+.textbox{
+    width: 80%;
+    border-radius: 5px;
+    outline: none;
+    color: #E2E2B6;
+    background-color: rgba(226, 226, 182, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.textbox:hover{
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.8);
+}
+
+.submit-button{
+    background-color: #03346E;
+    height: 2.5rem;
+    width: 100;
+    color: #E2E2B6;
+    margin-top: 1rem;
+    border-radius: 5px;
+    box-sizing: content-box;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}

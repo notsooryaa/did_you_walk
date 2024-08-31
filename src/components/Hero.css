@@ -1,0 +1,43 @@
+.hero{
+    height: 100%;
+    background-color: transparent;
+    color: #6EACDA;
+}
+@media (min-width: 768px) {
+    .hero {
+      height: 100vh;
+    }
+  }
+
+
+.hero > div{
+    padding: 1rem;
+}
+
+.show-data{
+    color: #E2E2B6;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+}
+
+.show-data > h2{
+    color: #6EACDA;
+}
+
+ul {
+    font-size: 18px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .date-group{
+    flex: 1;
+    min-width: 0; 
+  }
