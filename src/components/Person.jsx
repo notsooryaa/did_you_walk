@@ -32,7 +32,7 @@ function Person({ name }) {
       return;
     }
 
-    const today = new Date().toISOString().slice(0, 10); // Format: YYYY-MM-DD
+    const today = new Date().toISOString().slice(0, 10);
 
     try {
       await setDoc(doc(db, "persons", name, "daily_records", today), {
